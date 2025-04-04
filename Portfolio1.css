@@ -68,7 +68,7 @@ a:hover, a:visited, a:link, a:active
     text-decoration: none;
 }
 
-.item:hover{
+.item:hover, .nome:hover{
     -webkit-transition-property: height, width;
     -webkit-transition-duration: 1s;
     -moz-transition-property: height, width;
@@ -86,26 +86,6 @@ a:hover, a:visited, a:link, a:active
         0 0 92px #0fa,
         0 0 102px #0fa,
         0 0 151px #0fa;
-}
-
-.nome:hover{
-        -webkit-transition-property: height, width;
-        -webkit-transition-duration: 1s;
-        -moz-transition-property: height, width;
-        -moz-transition-duration: 1s;
-        transition-property: height, width;
-        transition-duration: 1s;
-        color: rgb(31, 203, 255);
-        color: #fff;
-        text-shadow:
-            0 0 7px #fff,
-            0 0 10px #fff,
-            0 0 21px #fff,
-            0 0 42px #0fa,
-            0 0 82px #0fa,
-            0 0 92px #0fa,
-            0 0 102px #0fa,
-            0 0 151px #0fa;
 }
 
 .logo {
