@@ -66,6 +66,10 @@ body{
     margin-top: 20px;
 }
 
+a:hover, a:visited, a:link, a:active
+{
+    text-decoration: none;
+}
 
 .item:hover{
     -webkit-transition-property: height, width;
@@ -87,7 +91,27 @@ body{
         0 0 151px #0fa;
 }
 
-.logo{
+.nome:hover{
+        -webkit-transition-property: height, width;
+        -webkit-transition-duration: 1s;
+        -moz-transition-property: height, width;
+        -moz-transition-duration: 1s;
+        transition-property: height, width;
+        transition-duration: 1s;
+        color: rgb(31, 203, 255);
+        color: #fff;
+        text-shadow:
+            0 0 7px #fff,
+            0 0 10px #fff,
+            0 0 21px #fff,
+            0 0 42px #0fa,
+            0 0 82px #0fa,
+            0 0 92px #0fa,
+            0 0 102px #0fa,
+            0 0 151px #0fa;
+}
+
+.logo {
     -webkit-transition-property: height, width;
     -webkit-transition-duration: 1s;
     -moz-transition-property: height, width;
@@ -97,6 +121,7 @@ body{
     background:none;
     border-radius: 20%;
     border: 1px solid white;
+    text-decoration: none;
 
 }
 
@@ -120,8 +145,7 @@ body{
     margin-top: 3cm;
 }
 
-.item{
-    color: rgb(31, 203, 255);
+.item, .nome {
     color: #f1dddd;
     text-shadow:
     0 0 21px #fcfbca,
@@ -129,6 +153,7 @@ body{
         0 0 42px rgb(2, 183, 255),
         0 0 42px rgb(2, 183, 255),
         0 0 42px rgb(2, 183, 255);
+    text-decoration: none;
     }
 p{
     color: #00aaff;
@@ -140,8 +165,4 @@ h1{
     font-size: 55px;
     color: rgb(205, 226, 228);
 
-}
-
-altas{
-    background-color: rgb(60, 241, 60);
 }
